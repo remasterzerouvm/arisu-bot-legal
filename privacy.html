@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Política de Privacidad — Arisu Bot</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; max-width: 760px; margin: 2rem auto; padding: 0 1rem 3rem; line-height: 1.55; color: #1a1a1a; }
+    h1, h2 { line-height: 1.25; }
+    h1 { font-size: 1.7rem; }
+    h2 { font-size: 1.15rem; margin-top: 1.75rem; }
+    .meta { color: #555; font-size: 0.95rem; }
+    hr { border: none; border-top: 1px solid #ddd; margin: 2.5rem 0; }
+    a { color: #5865F2; }
+  </style>
+</head>
+<body>
+  <p><a href="index.html">← Inicio</a></p>
+  <h1>Política de Privacidad — Arisu Bot</h1>
+  <p class="meta">Fecha de vigencia: 4 de octubre de 2026</p>
+
+  <h2>1. Responsable</h2>
+  <p>Esta política describe cómo <strong>Emanuel Avalos</strong> (“nosotros”) trata datos al operar el bot de Discord <strong>Arisu</strong> (Arisu#9797, aplicación 1556527373678018570). El bot es un proyecto de hobby, no comercial.</p>
+
+  <h2>2. Qué datos se procesan</h2>
+  <p>Solo cuando alguien menciona al bot o responde a uno de sus mensajes, Arisu puede leer:</p>
+  <ul>
+    <li>El contenido del mensaje que lo activa (texto, adjuntos relevantes como CSV, y metadatos básicos como ID de usuario, canal y servidor).</li>
+    <li>El mensaje al que se está respondiendo (incluido el contenido de embeds, por ejemplo de Mudae).</li>
+    <li>Hasta aproximadamente los últimos 15 mensajes recientes del canal, para contexto o para armar gráficas.</li>
+  </ul>
+  <p>También mantiene en memoria (RAM) las últimas ~10 interacciones por canal para continuar la conversación. Esa memoria <strong>se borra al reiniciar</strong> el bot y <strong>no se guarda en disco</strong> como historial de chat.</p>
+  <p>Los logs técnicos del servidor donde corre el bot pueden incluir nombres de usuario, IDs de servidor/canal y mensajes de error, solo para depuración.</p>
+
+  <h2>3. Para qué se usan</h2>
+  <ul>
+    <li>Generar la respuesta solicitada (chat, gráfica o búsqueda).</li>
+    <li>Mantener un contexto corto de conversación.</li>
+    <li>Diagnosticar fallos.</li>
+  </ul>
+  <p>No vendemos datos, no mostramos publicidad y no usamos trackers de marketing.</p>
+
+  <h2>4. Con quién se comparten (encargados / terceros)</h2>
+  <ul>
+    <li><strong>Discord</strong>: la plataforma por la que se envían y reciben mensajes.</li>
+    <li><strong>MiniMax</strong> (api.minimax.io): recibe el texto necesario para generar la respuesta de IA.</li>
+    <li><strong>DuckDuckGo</strong>: cuando pides una búsqueda web o de imágenes, la consulta se envía a ese servicio.</li>
+    <li><strong>YouTube / Google</strong>: cuando pides un video, se consulta YouTube para encontrar resultados.</li>
+  </ul>
+  <p>Esos servicios tienen sus propias políticas de privacidad. No controlamos cómo las aplican.</p>
+
+  <h2>5. Conservación</h2>
+  <p>El historial de chat en memoria se pierde al reiniciar. Los logs técnicos se conservan un tiempo limitado en el servidor privado donde corre el bot, solo para operación y depuración.</p>
+
+  <h2>6. Menores</h2>
+  <p>El bot no está dirigido a menores de 13 años (edad mínima de Discord). Si eres padre/madre o tutor y crees que un menor nos envió datos de forma indebida, contáctanos para borrarlos.</p>
+
+  <h2>7. Tus opciones</h2>
+  <p>Puedes dejar de usar el bot, pedirle a un administrador que lo quite del servidor, o solicitar borrado de logs/datos que aún conservemos abriendo un issue en <a href="https://github.com/remasterzerouvm/arisu-bot-legal">github.com/remasterzerouvm/arisu-bot-legal</a>.</p>
+
+  <h2>8. Cambios</h2>
+  <p>Podemos actualizar esta política. La fecha de vigencia al inicio indica la versión actual.</p>
+
+  <hr />
+
+  <h1>Privacy Policy — Arisu Bot</h1>
+  <p class="meta">Effective date: October 4, 2026</p>
+  <p>This policy describes how <strong>Emanuel Avalos</strong> (“we”) handles data when operating the Discord bot <strong>Arisu</strong> (Arisu#9797, application ID 1556527373678018570), a personal/non-commercial hobby project.</p>
+  <p>Only when the bot is @mentioned or someone replies to its messages may it read the triggering message (text, relevant attachments, and basic IDs), the replied-to message (including embeds such as Mudae’s), and about the last 15 recent channel messages for context/charts. It keeps the last ~10 exchanges per channel in RAM for short context; that memory is cleared on restart and is not stored as chat history on disk. Host logs may include usernames, server/channel IDs, and errors for debugging.</p>
+  <p>Data is used to fulfill the request (chat, chart, or search), keep short conversational context, and debug failures. We do not sell data, show ads, or use marketing trackers.</p>
+  <p>Third parties involved: <strong>Discord</strong> (messaging), <strong>MiniMax</strong> (AI responses), <strong>DuckDuckGo</strong> (web/image search when requested), and <strong>YouTube/Google</strong> (video search when requested). Those services have their own privacy policies.</p>
+  <p>The bot is not directed at children under 13. To stop using it, remove it from the server or open an issue at <a href="https://github.com/remasterzerouvm/arisu-bot-legal">github.com/remasterzerouvm/arisu-bot-legal</a> to request deletion of retained logs/data we still hold.</p>
+</body>
+</html>
